@@ -1,7 +1,7 @@
-﻿body {
+﻿body{
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color: darkslategray;
+    background-color: ghostwhite;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -28,9 +28,17 @@ textarea {
     margin-right: 5px;
     margin-top: 30px
 }
-.fundo {
-    /*background-color: powderblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+#btnDark {
+    background-color: darkblue;
+    position: absolute;
+    top: 0%;
+    left: 80%
+}
+#btnDefault {
+    background-color: mediumblue;
+    position: absolute;
+    top: 0%;
+    left: 90%
 }
 
 #btnConsult {
@@ -45,14 +53,16 @@ textarea {
 }
 h1 {
     text-align: center;
-    color: orangered;
+    color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .card {
     margin-top: auto;
     background-color: cornflowerblue;
-    height: 210px;
+    height: 400px;
     width: 370px;
     border-radius: 15px;
     padding: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
 }

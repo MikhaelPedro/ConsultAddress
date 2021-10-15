@@ -6,41 +6,49 @@
 
 
 <div class="row col-md-12">
-
-    <h1>Consult Address </h1>
-
-    <div class="div_PostalCode" @*style="margin-top:30px"*@>
-        <input type="text" id="PostalCode" class="form-group-sm form-control" @*style=""*@ placeholder="Postal Code" />
-        <p><a id="btnConsult" class="btn btn-success" @*style="margin-top: 0px"*@>Consult Your Address</a></p>
-        <p><a id="btnClean" class="btn btn-danger" @*style="margin-right: 5px "*@>Clean</a></p>
+    <div class="Mode">
+        <p><a id="btnDark" class="btn btn-primary">Dark Mode</a></p>
+        <p><a id="btnDefault" class="btn btn-primary">Default Mode</a></p>
     </div>
 
-    <div class="card">
-        <form method="get" action=".">
-            <label>
-                CEP:
-                <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" />
-            </label><br />
-            <label>
-                Street:
-                <input name="rua" type="text" id="rua" size="60" />
-            </label><br />
-            <label>
-                District:
-                <input name="bairro" type="text" id="bairro" size="40" />
-            </label><br />
-            <label>
-                City:
-                <input name="cidade" type="text" id="cidade" size="40" />
-            </label><br />
-            <label>
-                State:
-                <input name="uf" type="text" id="uf" size="2" />
-            </label><br />
-            <label>
-                IBGE:
-                <input name="ibge" type="text" id="ibge" size="8" />
-            </label><br />
-        </form>
+    <br />
+    <br />
+
+    <h1>Consult Address</h1>
+
+    <div class="div_PostalCode">
+        <input type="text" id="PostalCode" class="form-group-sm form-control" placeholder="Postal Code" />
+        <p><a id="btnConsult" class="btn btn-success">Consult Your Address</a></p>
+        <p><a id="btnClean" class="btn btn-danger">Clean</a></p>
+    </div>
+    <div class="row cards">
+        <!--<div class="card">-->
+        @*<form method="get" action=".">
+                <label>
+                    CEP:
+                    <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" />
+                </label><br />
+                <label>
+                    Street:
+                    <input name="rua" type="text" id="rua" size="60" />
+                </label><br />
+                <label>
+                    District:
+                    <input name="bairro" type="text" id="bairro" size="40" />
+                </label><br />
+                <label>
+                    City:
+                    <input name="cidade" type="text" id="cidade" size="40" />
+                </label><br />
+                <label>
+                    State:
+                    <input name="uf" type="text" id="uf" size="2" />
+                </label><br />
+                <label>
+                    IBGE:
+                    <input name="ibge" type="text" id="ibge" size="8" />
+                </label><br />
+            </form>*@
+        <!--</div>-->
     </div>
 </div>
