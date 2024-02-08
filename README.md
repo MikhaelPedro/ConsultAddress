@@ -1,0 +1,1 @@
+Usando a API do ViaCEP para consultar e exibir informações de endereço com base no CEP inserido pelo usuário. Ele evita consultas duplicadas, exibe os resultados em cards dinâmicos e permite limpar as informações. Além disso, oferece funcionalidades de controle de temas de cores na página.
